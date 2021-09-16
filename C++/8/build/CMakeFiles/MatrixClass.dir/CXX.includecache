@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lily/CompSci/C++/8/headers/matrix.h
+vector
+-
+ostream
+-
+
+/home/lily/CompSci/C++/8/source/main.cpp
+iostream
+-
+../headers/matrix.h
+/home/lily/CompSci/C++/8/headers/matrix.h
+
+/home/lily/CompSci/C++/8/source/matrix.cpp
+bits/c++config.h
+-
+ostream
+-
+../headers/matrix.h
+/home/lily/CompSci/C++/8/headers/matrix.h
+

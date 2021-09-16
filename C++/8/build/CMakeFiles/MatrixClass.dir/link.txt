@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/MatrixClass.dir/source/main.cpp.o CMakeFiles/MatrixClass.dir/source/matrix.cpp.o  -o MatrixClass 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lily/CompSci/C++/9/source/main.cpp
+boost/algorithm/string/classification.hpp
+-
+boost/algorithm/string/split.hpp
+-
+fstream
+-
+iostream
+-
+vector
+-
+boost/algorithm/string.hpp
+-
+
